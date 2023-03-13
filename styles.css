@@ -1,2 +1,105 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.navbar {
+  min-width: 100%;
+  background-color: #4f46e5;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  margin-top: 3rem;
+  min-width: 100%;
+  background-color: #4f46e5;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.heart {
+  color: #e21717;
+  font-size: 1.5rem;
+}
+
+#convertBtn {
+  all: unset;
+  text-align: center;
+  font-size: large;
+  padding: 1rem 3rem;
+  font-weight: 600;
+  border-radius: 14px;
+  width: 10rem;
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+
+.labelName {
+  color: #4f46e5;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.inputSection {
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#jsonInput {
+  padding: 0.75rem;
+  min-height: 25rem;
+  min-width: 80%;
+  font-family: "Fira Code";
+  font-size: large;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  resize: none;
+}
+
+#mapName {
+  margin-left: 2rem;
+  padding: 0.4rem;
+  font-weight: 500;
+  font-size: larger;
+  color: #1e293b;
+}
+
+.mapDiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+#jsonOutput {
+  padding: 0.75rem;
+  min-height: 50vh;
+  min-width: 80vw;
+  font-family: "Fira Code";
+  font-size: large;
+  font-weight: 400;
+  resize: none;
+}
+
+.outputSection {
+  margin-top: 5rem;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}

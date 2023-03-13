@@ -4,36 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>JSON to Deluge converter</title>
   </head>
-  <body>
+  <body spellcheck="false">
     <!-- Navbar -->
-    <nav>
+    <nav class="navbar">
       <h1>JSON to Deluge converter</h1>
     </nav>
 
     <!-- Input Section -->
-    <section>
-      <textarea name="jsonInput" id="jsonInput" cols="30" rows="10"></textarea>
-      <label for="mapName">Map name:</label>
-      <input type="text" name="mapName" id="mapName" />
+    <section class="inputSection">
+      <textarea
+        name="jsonInput"
+        id="jsonInput"
+        cols="30"
+        rows="10"
+        placeholder="Paste your JSON here..."
+        autofocus
+      ></textarea>
+      <div class="mapDiv">
+        <label for="mapName" class="labelName">Map name:</label>
+        <input type="text" name="mapName" id="mapName" />
+      </div>
       <button id="convertBtn">Convert to Deluge</button>
     </section>
 
     <!-- Output Section -->
-    <section>
-      <label for="jsonOutput"></label>
+    <section class="outputSection">
       <textarea
         name="jsonOutput"
         id="jsonOutput"
         cols="30"
         rows="10"
+        readonly
       ></textarea>
     </section>
 
     <!-- Footer -->
-    <footer>
-      <h3>Made with ♥ by Naveen G</h3>
+    <footer class="footer">
+      <h3>Made with <span class="heart"> ♥ </span> by Naveen G</h3>
     </footer>
   </body>
 </html>
