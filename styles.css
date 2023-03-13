@@ -71,6 +71,7 @@ body {
   font-weight: 400;
   margin-bottom: 3rem;
   resize: none;
+  line-height: 1.75rem;
 }
 
 #mapName {
@@ -95,6 +96,7 @@ body {
   font-size: large;
   font-weight: 400;
   resize: none;
+  line-height: 1.75rem;
 }
 
 .outputSection {
