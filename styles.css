@@ -99,9 +99,26 @@ body {
   line-height: 1.75rem;
 }
 
+.copy {
+  position: absolute;
+  right: 11vw;
+  margin-top: 1rem;
+  background: none;
+  border: none;
+}
+
 .outputSection {
   margin-top: 5rem;
   min-width: 100%;
   display: flex;
   justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.name {
+  border-bottom: 3px solid #e21717;
 }
